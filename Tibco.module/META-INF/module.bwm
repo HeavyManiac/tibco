@@ -8,6 +8,9 @@
   <sca:property xmi:id="_OM_XQLQrEeqreogO8s0PCA" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
   <sca:property xmi:id="_ONE20LQrEeqreogO8s0PCA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:component xmi:id="_N7v2QLQrEeqreogO8s0PCA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_N7xEYLQrEeqreogO8s0PCA" processName="tibco.module.Process"/>
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_N7xEYLQrEeqreogO8s0PCA" processName="tibco.module.ProcessA"/>
+  </sca:component>
+  <sca:component xmi:id="_jf7hsLQxEeq8qOqFHTKs_A" name="ComponentProcessB" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_jf7hsbQxEeq8qOqFHTKs_A" processName="tibco.module.ProcessB"/>
   </sca:component>
 </sca:composite>
